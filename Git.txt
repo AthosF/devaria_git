@@ -1,0 +1,71 @@
+GitHub Devaria
+
+- Utilizar a Conta GitHub e o GitHub Desktop
+
+Criar repositório
+Iniciar uma pasta como um repositório no git
+Nunca criar um repositório dentro do outro
+
+Comando
+
+Para iniciar um git no diretório
+GIT INIT <nome do diretório>
+
+
+Gerenciar arquivos
+
+GIT STATUS
+GIT ADD <nome do arquivo>
+GIT ADD -A 
+GIT COMMIT -M "Comentário do que foi feito"
+GIT PUSH
+
+Atualizar Arquivos
+
+Sempre fazer atualização antes de fazer um commit
+
+GIT STATUS
+GIT PULL
+
+Mudar de ramificação
+
+Mudar de uma ramificação para outra dentro do repositório;
+
+
+
+GIT CHECKOUT <nome da branch>
+
+GIT CHECKOUT -B <nome da branch que será criada>
+
+GIT CHECKOUT . 
+
+GIT CHECKOUT<nome do arquivo>
+
+Verficar as alterações
+
+Analisar as diferenças antes enviar para o servidor
+Analisar linhas alteradas e o que foi realizado, como boa pratica sempre fazer isso antes de subir
+uma alteração
+
+GIT DIFF
+
+
+Histórico de alterações
+Analisar o histórico dos commits feitos na branch atualização
+Verificar o que foi feito para tomada de decisão no código
+
+GIT LOG
+
+Verificar Ramificações
+analaisar todas as ramificações local ou remotas
+
+GIT BRANCH
+GIT BRANCH -R 
+
+
+Juntar as Ramificações
+Juntar os commits de uma ramificação em outra
+
+GIT MERGE <nome da branch>
+
+
